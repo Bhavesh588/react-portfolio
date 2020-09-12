@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
@@ -33,12 +34,32 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/1.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
+
+.typewriter-text {
+   padding-right: 10px;
+   color: #ffe509;
+   border-right: solid #ffe509 7px;
+   text-transform: uppercase;
+   animation: cursor 1s ease-in-out infinite;
+   font-weight: bold;
+ }
+ @keyframes cursor {
+   from { border-color: #ffe509; }
+   to { border-color: transparent; }
+ }
+ 
+ @media (max-width: 767.98px) {
+   .typewriter { font-size: 35px; }
+ }
+ @media (min-width: 768px) {
+   .typewriter { font-size: 60px; }
+ }
 
 /* vertically center banner section */
 header:before {
@@ -58,7 +79,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'Long Cang', cursive;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -190,6 +211,7 @@ ul#nav li.current a { color: #F06000; }
    background: #2B2B2B;
    padding-top: 96px;
    padding-bottom: 66px;
+   clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 90%, 0 100%);
    overflow: hidden;
 }
 
@@ -197,7 +219,7 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 40px/30px 'Long Cang', cursive;;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -208,7 +230,7 @@ ul#nav li.current a { color: #F06000; }
 #about .profile-pic {
    position: relative;
    width: 120px;
-   height: 120px;
+   height: 150px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import $ from 'jquery';
 
 class Header extends Component {
   render() {
@@ -12,6 +13,49 @@ class Header extends Component {
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
     }
+
+   //    $(document).ready(function() {
+
+   //    typing( 0, $('.typewriter-text').data('text') );
+      
+   //    function typing( index, text ) {
+         
+   //       var textIndex = 1;
+      
+   //       var tmp = setInterval(function() {
+   //          if ( textIndex < text[ index ].length + 1 ) {
+   //                $('.typewriter-text').text( text[ index ].substr( 0, textIndex ) );
+   //                textIndex++;
+   //             } else {
+   //          setTimeout(function() { deleting( index, text ) }, 2000);
+   //          clearInterval(tmp);
+   //          }
+      
+   //          }, 150);
+      
+   //       }
+      
+   //       function deleting( index, text ) {
+      
+   //       var textIndex = text[ index ].length;
+      
+   //       var tmp = setInterval(function() {
+      
+   //          if ( textIndex + 1 > 0 ) {
+   //          $('.typewriter-text').text( text[ index ].substr( 0, textIndex ) );
+   //          textIndex--;
+   //          } else {
+   //          index++;
+   //          if ( index === text.length ) { index = 0; }
+   //          typing( index, text );
+   //          clearInterval(tmp);
+   //          }
+      
+   //          }, 150)
+      
+   //    }
+      
+   // });
 
     return (
       <header id="home">
@@ -35,6 +79,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
+            {/* <h1 className="responsive-headline">I'm <span class='typewriter-text' data-text='[ "Bhavesh Solanki. ", "REACT Developer. " ]'></span></h1> */}
             <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
