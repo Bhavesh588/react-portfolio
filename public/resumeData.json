@@ -79,6 +79,12 @@
         "category": "YouTube Clone built with Firebase. This is 5% of Youtube. Build in Process",
         "image": "youtube-clone.png",
         "url": "https://clone-9c0bb.firebaseapp.com/"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Netflix Clone built with Firebase. Build in Process",
+        "image": "netflix-clone.png",
+        "url": "https://netflix-clone-45a0a.web.app/"
       }
     ]
   },
