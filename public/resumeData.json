@@ -82,9 +82,15 @@
       },
       {
         "title": "Netflix Clone",
-        "category": "Netflix Clone built with Firebase. Build in Process",
+        "category": "Netflix Clone built with Firebase and backend is Cassandra. Build in Process",
         "image": "netflix-clone.png",
         "url": "https://netflix-clone-45a0a.web.app/"
+      },
+      {
+        "title": "Amazon Clone",
+        "category": "Amazon Clone built with Firebase and there is stripe payment. Build in Process",
+        "image": "amazon-clone.png",
+        "url": "https://clone-304cf.web.app/"
       }
     ]
   },
